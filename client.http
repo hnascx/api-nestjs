@@ -1,14 +1,14 @@
 @baseUrl = http://localhost:3333
 
-@authToken = {{authenticate.response.body.accessToken}}
+@authToken = {{authenticate.response.body.access_token}}
 
 # @name create_account
 POST {{baseUrl}}/accounts
 Content-Type: application/json
 
 {
-  "name": "hnascx2",
-  "email": "hnascx2@icloud.com",
+  "name": "hnascx3",
+  "email": "hnascx3@icloud.com",
   "password": "123456"
 }
 
