@@ -7,8 +7,8 @@ POST {{baseUrl}}/accounts
 Content-Type: application/json
 
 {
-  "name": "hnascx",
-  "email": "hnascx@icloud.com",
+  "name": "hnascx2",
+  "email": "hnascx2@icloud.com",
   "password": "123456"
 }
 
