@@ -55,7 +55,7 @@ export class InMemoryQuestionsRepository implements QuestionsRepository {
     this.items[itemIndex] = question
 
     await this.questionAttachmentsRepository.createMany(
-      question.attachments.getItems(),
+      question.attachments.getNewItems(),
     )
 
     await this.questionAttachmentsRepository.deleteMany(
